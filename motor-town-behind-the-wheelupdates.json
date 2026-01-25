@@ -29,7 +29,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"[ -f DedicatedServerConfig_Sample.json ] && mv DedicatedServerConfig_Sample DedicatedServerConfig.json\"",
+        "UpdateSourceArgs": "-c \"[ -f DedicatedServerConfig_Sample.json ] && mv DedicatedServerConfig_Sample.json DedicatedServerConfig.json\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,

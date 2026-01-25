@@ -6,6 +6,7 @@
         "UpdateSourceData": "2223650",
         "UpdateSourceArgs": "1369670",
         "UpdateSourceVersion": "beta",
+        "UpdateSourceExtra": "motortowndedi",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Windows",

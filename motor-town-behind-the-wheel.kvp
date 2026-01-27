@@ -1,7 +1,7 @@
 Meta.DisplayName=Motor Town: Behind The Wheel
 Meta.Description=Motor Town: Behind The Wheel Dedicated Server
 Meta.Arch=x86_64
-Meta.Author=
+Meta.Author=ShadowSlaya
 Meta.URL=https://store.steampowered.com/app/1369670/Motor_Town_Behind_The_Wheel
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:wine

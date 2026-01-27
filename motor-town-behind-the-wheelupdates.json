@@ -6,6 +6,7 @@
         "UpdateSourceData": "2223650",
         "UpdateSourceArgs": "1369670",
         "UpdateSourceVersion": "beta -betapassword motortowndedi",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true,
         "ForceDownloadPlatform": "Windows",

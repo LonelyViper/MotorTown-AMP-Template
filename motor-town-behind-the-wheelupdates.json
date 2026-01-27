@@ -12,27 +12,5 @@
         "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": false
-    },
-    {
-        "UpdateStageName": "Rename DedicatedServerConfig (Windows)",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "powershell",
-        "UpdateSourceArgs": "-Command \"if (Test-Path 'DedicatedServerConfig_Sample.json') { Rename-Item DedicatedServerConfig_Sample.json DedicatedServerConfig.json }\"",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Rename DedicatedServerConfig (Linux)",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"[ -f DedicatedServerConfig_Sample.json ] && mv DedicatedServerConfig_Sample.json DedicatedServerConfig.json\"",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
     }
 ]

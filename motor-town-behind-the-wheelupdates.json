@@ -7,10 +7,17 @@
         "UpdateSourceArgs": "1369670",
         "UpdateSourceVersion": "beta -betapassword motortowndedi",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
-        "UnzipUpdateSource": false,
+        "UpdateSourceEmptyPath": "2223650",
         "OverwriteExistingFiles": true,
-        "ForceDownloadPlatform": "Windows",
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "ForceDownloadPlatform": "Windows"
+    },
+    {
+        "UpdateStageName": "Proton Compatibility Layer",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData":"1580130",
+        "UpdateSourceTarget": ".proton",
+        "UpdateSourceEmptyPath": "1580130",
+        "OverwriteExistingFiles": true
     }
 ]

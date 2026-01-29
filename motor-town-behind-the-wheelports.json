@@ -10,7 +10,7 @@
         "Protocol": "Both",
         "Port": "27015",
         "Name": "Steam Query Port",
-        "Description": "Port used for main game traffic",
+        "Description": "Steam query port for server browser listings",
         "Ref": "SteamQueryPort"
     }
 ]
